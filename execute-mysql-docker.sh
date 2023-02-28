@@ -1,6 +1,5 @@
 docker rm -f mysql-local
 docker run -d \
-	--platform linux/x64 \
 	--name mysql-local \
 	-e MYSQL_ROOT_PASSWORD=hands0614 \
 	-v mysql-confs:/etc/mysql/conf.d \
